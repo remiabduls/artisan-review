@@ -47,6 +47,10 @@
   font-size: 12px;
 }
 
+.login__signInButton:hover{
+    color: darkturquoise;
+}
+
 .login__signInButton {
   background:blue;
   border-radius: 2px;
@@ -56,6 +60,11 @@
   margin-top: 10px;
   color: aliceblue;
   border-color: #a88734 #9c7e31 #846a29;
+}
+
+
+.login__registerButton:hover{
+    color: darkturquoise;
 }
 
 .login__registerButton {
