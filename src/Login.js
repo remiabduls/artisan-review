@@ -30,18 +30,36 @@ function Login() {
             onChange={(e) => setPassword(e.target.value)}
           />
 
+          <div className="form-group">
+            <div className="custom-control custom-checkbox">
+              <input
+                type="checkbox"
+                className="custom-control-input"
+                id="customCheck1"
+              />
+              <label className="custom-control-label" htmlFor="customCheck1">
+                Remember me
+              </label>
+            </div>
+          </div>
+
           <button type="submit" className="login__signInButton">
             Sign In
           </button>
         </form>
 
         <p>
-          <strong>By signing-in you agree to the ARTISAN REVIEW Conditions of Use &
-          Sale. Please see our Privacy Notice, our Cookies Notice and our
-          Interest-Based Ads Notice.</strong>
+          <strong>
+            By signing-in you agree to the ARTISAN REVIEW Conditions of Use &
+            Sale. Please see our Privacy Notice, our Cookies Notice and our
+            Interest-Based Ads Notice.
+          </strong>
         </p>
 
         <button className="login__registerButton">Create your Account</button>
+        <p className="forgot-password">
+          Forgot <a href="#">password?</a>
+        </p>
       </div>
     </div>
   );
